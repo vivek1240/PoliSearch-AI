@@ -1,0 +1,15 @@
+llama-index-vector-stores-elasticsearch
+llama-index
+openai
+PyMuPDF
+elasticsearch
+fastapi
+uvicorn
+llama-parse
+nest-asyncio
+datasets
+ragas
+numpy
+pydantic
+scikit-learn
+pandas

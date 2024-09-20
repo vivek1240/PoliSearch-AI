@@ -1,0 +1,465 @@
+2024-09-09 12:00:59,627 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:01:15,577 - INFO - GET http://localhost:9200/ [status:N/A duration:0.002s]
+2024-09-09 12:01:15,578 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 1 times in a row, putting on 1 second timeout
+2024-09-09 12:01:15,578 - WARNING - Retrying request after failure (attempt 0 of 3)
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x137b7e9c0>: Failed to establish a new connection: [Errno 61] Connection refused)
+2024-09-09 12:01:15,584 - INFO - GET http://localhost:9200/ [status:N/A duration:0.001s]
+2024-09-09 12:01:15,584 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 2 times in a row, putting on 2 second timeout
+2024-09-09 12:01:15,584 - WARNING - Retrying request after failure (attempt 1 of 3)
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x137b7eab0>: Failed to establish a new connection: [Errno 61] Connection refused)
+2024-09-09 12:01:15,586 - INFO - GET http://localhost:9200/ [status:N/A duration:0.001s]
+2024-09-09 12:01:15,586 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 3 times in a row, putting on 4 second timeout
+2024-09-09 12:01:15,586 - WARNING - Retrying request after failure (attempt 2 of 3)
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/elastic_transport/_transport.py", line 342, in perform_request
+    resp = node.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/elastic_transport/_node/_http_urllib3.py", line 202, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x137b7eed0>: Failed to establish a new connection: [Errno 61] Connection refused)
+2024-09-09 12:01:15,587 - INFO - GET http://localhost:9200/ [status:N/A duration:0.001s]
+2024-09-09 12:01:15,587 - WARNING - Node <Urllib3HttpNode(http://localhost:9200)> has failed for 4 times in a row, putting on 8 second timeout
+2024-09-09 12:04:49,992 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:05:15,070 - INFO - GET http://localhost:9200/ [status:200 duration:0.160s]
+2024-09-09 12:10:12,297 - INFO - Received evaluation request.
+2024-09-09 12:10:12,298 - INFO - Setting up vector store and Llama index.
+2024-09-09 12:10:12,338 - INFO - GET http://localhost:9200/ [status:200 duration:0.033s]
+2024-09-09 12:10:12,355 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:12:16,678 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:12:18,801 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:12:21,300 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:12:23,607 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:12:25,573 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:12:27,807 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:12:46,041 - INFO - GET http://localhost:9200/ [status:200 duration:0.056s]
+2024-09-09 12:14:14,424 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:14:16,540 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:14:18,517 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:14:59,082 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:15:01,356 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:15:15,452 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:15:17,552 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:15:31,072 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:15:33,271 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:01,606 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:03,726 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:28,310 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:30,413 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:37,853 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:50,636 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:57,085 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:16:59,215 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:05,109 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:07,052 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:12,976 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:14,953 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:22,468 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:24,582 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:38,427 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:40,578 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:52,263 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:17:54,385 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:18:01,163 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:18:16,749 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:18:28,128 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:18:30,394 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:18:51,138 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:19:01,949 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:19:08,463 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:19:10,568 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:19:12,586 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:19:14,591 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:19:29,259 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:07,042 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:09,236 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:22,977 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:25,141 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:34,132 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:36,385 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:20:54,419 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:20:54,420 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:20:54,495 - INFO - GET http://localhost:9200/ [status:200 duration:0.070s]
+2024-09-09 12:20:54,496 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:20:54,496 - INFO - Setting up Llama index.
+2024-09-09 12:20:54,664 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:20:54,664 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:43,846 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:21:43,847 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:21:43,873 - INFO - GET http://localhost:9200/ [status:200 duration:0.022s]
+2024-09-09 12:21:43,882 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:21:43,884 - INFO - Setting up Llama index.
+2024-09-09 12:21:43,897 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:43,897 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:52,758 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:21:52,758 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:21:52,778 - INFO - GET http://localhost:9200/ [status:200 duration:0.019s]
+2024-09-09 12:21:52,780 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:21:52,780 - INFO - Setting up Llama index.
+2024-09-09 12:21:52,790 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:52,790 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:53,458 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:21:53,459 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:21:53,468 - INFO - GET http://localhost:9200/ [status:200 duration:0.008s]
+2024-09-09 12:21:53,469 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:21:53,469 - INFO - Setting up Llama index.
+2024-09-09 12:21:53,469 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:53,469 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:53,597 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:21:53,597 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:21:53,607 - INFO - GET http://localhost:9200/ [status:200 duration:0.009s]
+2024-09-09 12:21:53,608 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:21:53,608 - INFO - Setting up Llama index.
+2024-09-09 12:21:53,608 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:53,608 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:53,726 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:21:53,727 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:21:53,735 - INFO - GET http://localhost:9200/ [status:200 duration:0.007s]
+2024-09-09 12:21:53,736 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:21:53,736 - INFO - Setting up Llama index.
+2024-09-09 12:21:53,737 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:21:53,737 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:22:17,560 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:22:17,561 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:22:17,572 - INFO - GET http://localhost:9200/ [status:200 duration:0.009s]
+2024-09-09 12:22:17,573 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:22:17,573 - INFO - Setting up Llama index.
+2024-09-09 12:22:17,574 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:22:17,574 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:27:00,308 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:27:18,701 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:27:18,702 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:27:18,755 - INFO - GET http://localhost:9200/ [status:200 duration:0.045s]
+2024-09-09 12:27:18,757 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:27:18,757 - INFO - Setting up Llama index.
+2024-09-09 12:27:18,926 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:27:18,926 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:29:00,617 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:29:01,287 - INFO - Starting the main document ingestion process.
+2024-09-09 12:29:01,287 - INFO - Setting up API keys.
+2024-09-09 12:29:01,287 - INFO - API keys set.
+2024-09-09 12:29:01,287 - INFO - Connecting to Elasticsearch at http://localhost:9200.
+2024-09-09 12:29:01,288 - INFO - Connected to Elasticsearch.
+2024-09-09 12:29:01,288 - INFO - Checking if Elasticsearch index 'policy_documents_dense' exists.
+2024-09-09 12:29:01,351 - INFO - HEAD http://localhost:9200/policy_documents_dense [status:404 duration:0.064s]
+2024-09-09 12:29:01,605 - INFO - PUT http://localhost:9200/policy_documents_dense [status:200 duration:0.253s]
+2024-09-09 12:29:01,605 - INFO - Index 'policy_documents_dense' created.
+2024-09-09 12:29:01,605 - INFO - Retrieving PDF files from directory: /Users/viveksingh/Desktop/DS_Assignment/pdfs.
+2024-09-09 12:29:01,606 - INFO - Ingesting documents into Elasticsearch and Llama index.
+2024-09-09 12:29:01,606 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - leave policy.pdf.
+2024-09-09 12:29:01,608 - INFO - Checking if file with hash 'e4710fadef2f3e46b64171ecb4da092689dfaf90218f1d556584dc80904d9501' exists in index 'policy_documents_dense'.
+2024-09-09 12:29:01,666 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.058s]
+2024-09-09 12:29:01,666 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - leave policy.pdf.
+2024-09-09 12:29:02,949 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:29:04,650 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4b8e7dac-7e20-4caa-bc9b-fdc628c246ff "HTTP/1.1 200 OK"
+2024-09-09 12:29:05,076 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4b8e7dac-7e20-4caa-bc9b-fdc628c246ff/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:29:05,078 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - grievance and disciplinary policy.pdf.
+2024-09-09 12:29:05,079 - INFO - Checking if file with hash '31c31c9494f52b047329679714daf95ecd7671ba41740dd5acb7f91efc28a2e5' exists in index 'policy_documents_dense'.
+2024-09-09 12:29:05,083 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.004s]
+2024-09-09 12:29:05,084 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - grievance and disciplinary policy.pdf.
+2024-09-09 12:29:06,306 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:29:08,019 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:10,729 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:13,455 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:16,161 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:18,872 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:21,566 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:24,292 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:27,025 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:29,741 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:32,457 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:35,186 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:37,891 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:40,591 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:43,445 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:46,146 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:48,858 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:51,581 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:54,297 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:57,060 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:29:59,778 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:02,485 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:05,180 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:07,897 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:10,624 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:13,319 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:16,035 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:18,742 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13 "HTTP/1.1 200 OK"
+2024-09-09 12:30:19,162 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/febdd295-a88e-4507-8a67-d6efe30f9b13/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:19,168 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - Travel Reimbursement Policy.pdf.
+2024-09-09 12:30:19,170 - INFO - Checking if file with hash '404e9f85edb78fe8aa144443b9540903ec0f4104a5e8edb9971bec830b59daa4' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:19,213 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.041s]
+2024-09-09 12:30:19,214 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - Travel Reimbursement Policy.pdf.
+2024-09-09 12:30:20,290 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:21,998 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e968d573-626e-48c3-80a2-afff75dd0102 "HTTP/1.1 200 OK"
+2024-09-09 12:30:22,399 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e968d573-626e-48c3-80a2-afff75dd0102/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:22,404 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- POSH policy.pdf.
+2024-09-09 12:30:22,406 - INFO - Checking if file with hash '76ca9ebdf1d45d984cf19bed707caebc9311309971712a452bcb75b92203ddf4' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:22,430 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.024s]
+2024-09-09 12:30:22,431 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- POSH policy.pdf.
+2024-09-09 12:30:23,764 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:25,477 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/958aa385-4d18-4378-8d6d-953a16be7aaa "HTTP/1.1 200 OK"
+2024-09-09 12:30:25,899 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/958aa385-4d18-4378-8d6d-953a16be7aaa/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:25,903 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- ESOPS policy.pdf.
+2024-09-09 12:30:25,905 - INFO - Checking if file with hash '9088bba3bed9919ce0b51b799ab107beeade2bdc23129dd917314555264d1271' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:25,969 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.063s]
+2024-09-09 12:30:25,969 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- ESOPS policy.pdf.
+2024-09-09 12:30:27,372 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:29,079 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fc02acda-7325-455b-a6d2-9a267e21c6b6 "HTTP/1.1 200 OK"
+2024-09-09 12:30:29,502 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fc02acda-7325-455b-a6d2-9a267e21c6b6/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:29,507 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- Information security and IT policy..pdf.
+2024-09-09 12:30:29,508 - INFO - Checking if file with hash '873a1e468ee9bfba879a0eaeafdf3796150edaf476ff7735e063729eff924c15' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:29,567 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.057s]
+2024-09-09 12:30:29,567 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- Information security and IT policy..pdf.
+2024-09-09 12:30:30,751 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:32,461 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4cd1940b-2ac1-4359-89d3-adc43c1d52b3 "HTTP/1.1 200 OK"
+2024-09-09 12:30:32,892 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4cd1940b-2ac1-4359-89d3-adc43c1d52b3/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:32,896 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT-parental leave policy.pdf.
+2024-09-09 12:30:32,899 - INFO - Checking if file with hash '386ca49dcc36b8c1b639943635c39bc44d1dedaa259149c924082d340e292bfc' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:32,912 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.013s]
+2024-09-09 12:30:32,912 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT-parental leave policy.pdf.
+2024-09-09 12:30:34,038 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:35,749 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/04e70180-1186-4629-89ed-8afa48484ae0 "HTTP/1.1 200 OK"
+2024-09-09 12:30:36,126 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/04e70180-1186-4629-89ed-8afa48484ae0/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:36,130 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- Remote Work Policy.pdf.
+2024-09-09 12:30:36,131 - INFO - Checking if file with hash '4ecbd207660fcc8d5a903fb2540fdde036ba455bd7a8daf876ed501bc73e71c6' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:36,145 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.014s]
+2024-09-09 12:30:36,146 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- Remote Work Policy.pdf.
+2024-09-09 12:30:37,304 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:39,096 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/77296b2f-0d26-4325-9124-420921942a04 "HTTP/1.1 200 OK"
+2024-09-09 12:30:39,500 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/77296b2f-0d26-4325-9124-420921942a04/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:39,504 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - Expense Reimbursement Policy.pdf.
+2024-09-09 12:30:39,506 - INFO - Checking if file with hash '389af92790eb466af76ca18c1325c63b90853b08b6d4327ce486cce2da6be52d' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:39,521 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.014s]
+2024-09-09 12:30:39,521 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT - Expense Reimbursement Policy.pdf.
+2024-09-09 12:30:40,608 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:42,375 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/f20cede9-7bf5-43cf-be27-383913f7fb60 "HTTP/1.1 200 OK"
+2024-09-09 12:30:42,773 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/f20cede9-7bf5-43cf-be27-383913f7fb60/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:42,776 - INFO - Calculating hash for file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- Recruitment and Onboarding Policy.pdf.
+2024-09-09 12:30:42,779 - INFO - Checking if file with hash '49e5476574d9255558fba754fd371c272cfdf1b2beb7ab942384422a64f79392' exists in index 'policy_documents_dense'.
+2024-09-09 12:30:42,792 - INFO - POST http://localhost:9200/policy_documents_dense/_search [status:200 duration:0.013s]
+2024-09-09 12:30:42,792 - INFO - Parsing PDF file: /Users/viveksingh/Desktop/DS_Assignment/pdfs/GPT- Recruitment and Onboarding Policy.pdf.
+2024-09-09 12:30:43,898 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2024-09-09 12:30:45,614 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/9867914a-1288-420b-8492-78762ecb58b9 "HTTP/1.1 200 OK"
+2024-09-09 12:30:46,012 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/9867914a-1288-420b-8492-78762ecb58b9/result/markdown "HTTP/1.1 200 OK"
+2024-09-09 12:30:46,016 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:30:46,040 - INFO - GET http://localhost:9200/ [status:200 duration:0.017s]
+2024-09-09 12:30:46,041 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:30:46,041 - INFO - Setting up Llama index.
+2024-09-09 12:30:46,963 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-09 12:30:48,005 - INFO - HEAD http://localhost:9200/policy_documents_dense [status:200 duration:0.026s]
+2024-09-09 12:30:48,473 - INFO - PUT http://localhost:9200/_bulk?refresh=true [status:200 duration:0.427s]
+2024-09-09 12:30:48,620 - INFO - Llama index set up successfully.
+2024-09-09 12:30:48,621 - INFO - Saving the index for future use.
+2024-09-09 12:30:48,721 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x152b5b4d0>, 1141046.612582458)]']
+connector: <aiohttp.connector.TCPConnector object at 0x152ad3140>
+2024-09-09 12:31:19,338 - INFO - NumExpr defaulting to 8 threads.
+2024-09-09 12:31:33,649 - INFO - Received query: How many personal leaves do I have?.
+2024-09-09 12:31:33,650 - INFO - Setting up Elasticsearch vector store.
+2024-09-09 12:31:33,702 - INFO - GET http://localhost:9200/ [status:200 duration:0.047s]
+2024-09-09 12:31:33,703 - INFO - Elasticsearch vector store set up successfully.
+2024-09-09 12:31:33,704 - INFO - Setting up Llama index.
+2024-09-09 12:31:33,875 - ERROR - Error setting up Llama index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******
+2024-09-09 12:31:33,875 - ERROR - Error initializing vector store or index: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******

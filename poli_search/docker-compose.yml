@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  fastapi-app:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - elasticsearch
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LLAMA_CLOUD_API_KEY=${LLAMA_CLOUD_API_KEY}
+      - ES_URL=http://elasticsearch:9200  # Internal Docker network URL for Elasticsearch
+
+
+    networks:
+      - fastapi-network
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.2
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.license.self_generated.type=trial  # License configuration matching your docker run command
+    ports:
+      - "9200:9200"  # Exposing Elasticsearch port
+    networks:
+      - fastapi-network
+
+networks:
+  fastapi-network:
+    driver: bridge
